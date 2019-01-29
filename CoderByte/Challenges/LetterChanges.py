@@ -9,20 +9,19 @@ def LetterChanges(string):
     '''Alpha swap to i + 1 and upper vowels'''
     Vowels = ['a','e','i','o','u']
     Alpha = 'abcdefghijklmnopqrstuvwxyz'
-	
     modified_str = []
+	
     for char in list(string):
         if char.isalpha(): 
-			
-			if Alpha.find(char.lower()) == len(Alpha) - 1:
-				index = 0
-			else:
-				index = Alpha.find(char.lower())
-			
-			if Alpha[index+1] in Vowels:
-				modified_str.append(Alpha[index+1].upper())
-			else:
-				modified_str.append(Alpha[index+1])
+		if Alpha.find(char.lower()) == len(Alpha) - 1:
+			index = 0
+		else:
+			index = Alpha.find(char.lower())
+
+		if Alpha[index+1] in Vowels:
+			modified_str.append(Alpha[index+1].upper())
+		else:
+			modified_str.append(Alpha[index+1])
         else:
 		    modified_str.append(char)
 
