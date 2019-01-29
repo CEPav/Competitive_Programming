@@ -6,7 +6,7 @@
 # My Solution
 
 def LetterChanges(string): 
-    '''Upper vowels and alpha swap to i + 1'''
+    '''Alpha swap to i + 1 and upper vowels'''
     Vowels = ['a','e','i','o','u']
     Alpha = 'abcdefghijklmnopqrstuvwxyz'
 	
