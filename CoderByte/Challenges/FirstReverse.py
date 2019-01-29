@@ -7,4 +7,4 @@
 def FirstReverse(str):
     return str[::-1]
 
-# * Time Complexity = O(n); where n = len(string)
+# Time Complexity = O(n); where n = len(string)
