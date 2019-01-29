@@ -1,2 +1,2 @@
 # Competitive Programming
-Coding Challenges
+My solutions to coding challenges
