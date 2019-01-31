@@ -1,4 +1,5 @@
-#In place duplicate removal
+# Remove Duplicates from Sorted Array, In place
+# To return length
 
 class Solution:
     def removeDuplicates(self, nums):
