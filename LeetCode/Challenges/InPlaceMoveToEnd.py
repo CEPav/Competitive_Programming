@@ -23,5 +23,7 @@ class Solution:
         """
         :type nums: List[int]
         :rtype: void Do not return anything, modify nums in-place instead.
+        Basically I check each character one by one and put it in position 0 if 0 (to the left)
+        or swap to position 1 (to the right) if not 0. Then reverse the entire array.
         """
         return nums.sort(key=lambda x:1 if x!=0 else 0,reverse=True)
