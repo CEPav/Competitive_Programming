@@ -9,7 +9,7 @@ def BalanceCheck(delimiters):
         elif char in characters.values():
             if not stack: #If empty then we dont want to close so False
                 return False
-            elif characters[stack.pop()] != char:
+            elif characters[stack.pop()] != char: #We start 'poping' out in closed pairs
                 return False
         else:
             return False #Any other character not valid
