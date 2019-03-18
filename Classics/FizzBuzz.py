@@ -1,3 +1,4 @@
+# Clara Eleonore Pavillet
 def FizzBuzz(n):
     for integer in range(1,n+1):
         if integer % 3 == 0 and integer % 5 != 0:
