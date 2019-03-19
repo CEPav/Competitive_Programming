@@ -14,3 +14,15 @@ def Fibonacci_DP(n, cache={}):
     elif n not in cache:
         cache[n] = Fibonacci_DP(n-1)+Fibonacci_DP(n-2)
     return cache[n]
+
+# Clean user input if given in multiple lines
+# Input received as one string 'integer' per line
+input_n = input()
+while(len(input_n)>0):
+    input_n = int(input_n)
+    ans = fibonacci_dp(input_n)
+    print(ans)
+    input_n = input()
+
+
+# list(map(int, input().split()))
