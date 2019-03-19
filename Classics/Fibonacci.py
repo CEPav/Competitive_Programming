@@ -20,7 +20,7 @@ def Fibonacci_DP(n, cache={}):
 input_n = input()
 while(len(input_n)>0):
     input_n = int(input_n)
-    ans = fibonacci_dp(input_n)
+    ans = Fibonacci_DP(input_n)
     print(ans)
     input_n = input()
 
